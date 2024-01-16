@@ -3,12 +3,9 @@
     padding: 0;
 }
 
-
-
-
 .container {
     padding-top: 50px;
-    width: 1440px;
+    width: 1170px;
 }
 
 nav {
@@ -65,6 +62,7 @@ nav {
     width: 1170px;
     height: 500px;
     padding-top: 106px;
+
     margin-top: 50px;
 }
 
@@ -95,7 +93,8 @@ nav {
     margin-top: 48px;
     padding-top: 30px;
     border-radius: 8px;
-   
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
 
 }
 
@@ -125,6 +124,7 @@ nav {
 section {
     width: 1170px;
     justify-content: center;
+    border: 3px solid red;
 
 }
 
@@ -178,6 +178,12 @@ section {
     font-weight: 800;
     line-height: normal;
     border: none;
+}
+
+.images img {
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
 }
 
 .container-destination {
@@ -530,7 +536,7 @@ hr {
     height: 422px;
     flex-shrink: 0;
     border-radius: 16px;
-   position: relative;
+    position: relative;
 
     background: url(../Images/Rectangle\ 8\ \(1\).png), lightgray 50% / cover no-repeat;
     background-repeat: no-repeat;
@@ -543,7 +549,7 @@ hr {
     flex-shrink: 0;
     border-radius: 16px;
     background: #FF5400;
-    
+
 }
 
 .saveup h1 {
@@ -631,132 +637,219 @@ img {
     padding-bottom: 110px;
 }
 
+/* Responsive section */
+/* nav section */
 @media screen and (max-width:600px) {
     nav {
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
-        padding-left: 30px;
-
+        width: 335px;
     }
 
-    .nav-icon {
-        width: 100%;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-
-    }
-
-    .container-items {
-        width: 100%;
-        gap: 50px;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width:600px) {
     .box-container {
         display: flex;
         flex-direction: column;
-        margin-top: 0;
-        padding-top: 0;
-
-
-
+        gap: 10px;
+        margin-top: -25px;
+        padding-left: 50px;
+        background: rgba(255, 255, 255, 0.30);
     }
 
-    .btn-primary {
-        width: 455px;
-        height: 52px;
-
-        margin-bottom: 7px;
+    .container-bg {
+        width: 335px;
+        height: 483px;
         flex-shrink: 0;
+    }
 
-
+    .container-bg h1 {
+        width: 300px;
+        font-size: 22px;
     }
 }
 
+/* Our Popular Tours */
 @media screen and (max-width:600px) {
     .Tours {
+        width: 375px;
         display: flex;
         flex-direction: column;
     }
+
+    .Tours h1 {
+        font-size: 20px;
+    }
+
+    .Tours p {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 14px;
+    }
+
+    .images img {
+        width: 335px;
+        height: 342px;
+    }
 }
 
+/* chose-description-section  */
 @media screen and (max-width:600px) {
+    .container-destination {
+        width: 375px;
+    }
+
+    .text h1 {
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+    }
+
+    .text p {
+        width: 309px;
+        color: rgba(19, 19, 24, 0.70);
+
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+    }
 
     .gallary-1,
     .gallary-2,
     .gallary-3 {
-        width: 335px;
+        display: flex;
         flex-direction: column;
-    }
-
-    .Maldives,
-    .Srilanka,
-    .North-America,
-    .bangladesh {
-        margin-bottom: 16px;
-    }
-
-    .Srilanka,
-    .Indonesia,
-    .Maldives,
-    .North-America,
-    .bangladesh,
-    .bandarban,
-    .Kashmir {
-        margin-left: -55px;
-        width: 335px;
-        height: 276px;
-        border-radius: 16px;
+        gap: 15px;
         background-repeat: no-repeat;
     }
 
-}
-
-@media screen and (max-width: 600px) {
-    .fother-card {
-        display: flex;
-        flex-direction: column;
+    .Maldives,
+    .bandarban,
+    .Srilanka,
+    .bangladesh,
+    .Indonesia,
+    .North-America,
+    .Kashmir {
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
     }
 
-    .card-1,
-    .card-2,
-    .card-3 {
-        max-width: 474px;
-    }
-
-    .card-1,
-    .card-2,
-    .card-3 p {
-        padding-left: 20px;
+    .cn {
+        margin-top: -25px;
     }
 }
+
+/* Choose -section  */
+@media screen and (max-width:600px) {
+    .choos-container {
+        width: 375px;
+    }
+
+    .choos-text h1 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .choos-text p{
+        width: 309px;
+        color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+    }
+    .fother-card{
+        width: 335px;
+height: 289px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+    }
+    .card-1 p{
+        color: #5A5A5D;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+    }
+}
+
+
 
 @media screen and (max-width:600px) {
     .newsletter-container {
+        width: 375px;
         display: flex;
         flex-direction: column;
+    }
+
+    .news-left {
+        width: 375px;
+    }
+
+    .news-left h1 {
+        font-size: 20px;
+    }
+
+    .news-left p {
+        width: 270px;
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 14px;
+    }
+
+    .input {
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
     }
 
     .news-right {
-        max-width: 474px;
-        height: 422px;
+        width: 335px;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 16px;
+
     }
 }
 
-@media screen and (max-width: 600px) {
+/* Footer */
+@media screen and (max-width:600px) {
     .footer-container {
-        width: 475px;
-        height: 100%;
+        width: 375px;
+        height: 309px;
         flex-shrink: 0;
-        display: flex;
-        flex-direction: column;
-    }
-    .foot-text, .ss, .all{
-        width: 100%;
+        background: rgba(19, 19, 24, 0.05);
     }
 
+    .footer-icon {
+        width: 28.724px;
+        height: 33.516px;
+        flex-shrink: 0;
+    }
+
+    .foot-text p {
+        width: 287px;
+        color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+    }
+
+    .social {
+        width: 174.322px;
+        height: 24px;
+        flex-shrink: 0;
+    }
 }
