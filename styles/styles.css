@@ -1,0 +1,762 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+
+.container {
+    padding-top: 50px;
+    width: 1440px;
+}
+
+nav {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-icon {
+    display: flex;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.spam .spam1 {
+    color: #FF5400;
+    font-size: 36px;
+}
+
+.nav-icon img {
+    width: 48px;
+    height: 56.008px;
+
+}
+
+.container-items {
+
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container-items a {
+    text-decoration: none;
+
+}
+
+.home {
+    color: red;
+}
+
+/* nav end */
+
+.container-bg {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    padding-top: 106px;
+    margin-top: 50px;
+}
+
+.container-bg h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.container-bg p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.box-container {
+    width: 800px;
+    height: 84px;
+    margin-top: 48px;
+    padding-top: 30px;
+    border-radius: 8px;
+   
+
+}
+
+#btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 20px;
+    border: none;
+}
+
+section {
+    width: 1170px;
+    justify-content: center;
+
+}
+
+.Tours {
+    display: flex;
+    gap: 53px;
+}
+
+.Tours h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+
+.Tours p {
+    margin-bottom: 23px;
+}
+
+.Tours li {
+    margin-bottom: 23px;
+}
+
+.pera {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    width: 50%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.btn-reed {
+    margin-top: 23px;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: none;
+}
+
+.container-destination {
+    margin-top: 100px;
+}
+
+.text h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+    margin-top: 100px;
+}
+
+.text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 643px;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.text {
+    margin-bottom: 48px;
+}
+
+.gallary-1 {
+    display: flex;
+}
+
+.Maldives {
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    border-radius: 5px;
+    font-weight: 800;
+    line-height: normal;
+    background-image: url(../Images/Rectangle\ 5.png);
+}
+
+.Indonesia {
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    border-radius: 5px;
+    font-weight: 800;
+    line-height: normal;
+    background-image: url(../Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+}
+
+.gallary-2 {
+    display: flex;
+    margin-top: 24px;
+}
+
+.Srilanka {
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    background-image: url(../Images/Rectangle\ 6.png);
+}
+
+.North-America {
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-image: url(../Images/Rectangle\ 7.png);
+}
+
+.Kashmir {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    background-image: url(../Images/Rectangle\ 9.png);
+}
+
+.gallary-3 {
+    display: flex;
+    margin-top: 24px;
+}
+
+.bangladesh {
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-image: url(../Images/Rectangle\ 11.png);
+}
+
+.bandarban {
+    width: 673px;
+    justify-content: center;
+    height: 300px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+
+    line-height: normal;
+    background-image: url(../Images/Rectangle\ 10.png);
+
+}
+
+.cn {
+    padding-top: 120px;
+}
+
+/* why-choos-section */
+.choos-text h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+    margin-top: 100px;
+}
+
+.choos-text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+    /* 162.5% */
+}
+
+.fother-card {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.card-1 {
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(235, 101, 5, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.card-1 img {
+    padding: 32px;
+}
+
+.card-2 img {
+    padding: 32px;
+}
+
+.card-3 img {
+    padding: 32px;
+}
+
+.card-1 h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 16px 32px 16px 32px;
+}
+
+.card-2 h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 16px 32px 16px 32px;
+}
+
+.card-3 h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 16px 32px 16px 32px;
+}
+
+.card-1 p {
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+    /* 162.5% */
+
+}
+
+.card-2 p {
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+    /* 162.5% */
+
+}
+
+.card-3 p {
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+    /* 162.5% */
+
+}
+
+/* Newsletter section */
+.news-left {
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.news-left h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 40px 0px 10px 40px;
+}
+
+.news-left p {
+    color: #5A5A5D;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+hr {
+    margin: 24px 40px;
+}
+
+.input-ma {
+    padding: 16px 40px;
+}
+
+.input {
+    border: none;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#Subscribe {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.news-right {
+    width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+   position: relative;
+
+    background: url(../Images/Rectangle\ 8\ \(1\).png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+}
+
+.saveup {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    
+}
+
+.saveup h1 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    line-height: normal;
+
+}
+
+.saveup p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 25px;
+}
+
+.newsletter-container {
+    display: flex;
+    gap: 24px;
+    margin: 100px 0px;
+}
+
+/* Footer container */
+
+.footer-container {
+    width: 100%px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+
+
+.footer-icon {
+    display: flex;
+    color: #131318;
+    width: 274px;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 110px;
+    justify-content: center;
+}
+
+.footer-icon img {
+    width: 40px;
+    height: 46.673px;
+    flex-shrink: 0;
+}
+
+.foot-text {
+    width: 769px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.social {
+    margin-top: 50px;
+}
+
+img {
+    width: 174px;
+    height: 24px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.ss {
+    width: 872px;
+    margin: 50px 0px 50px 0px;
+
+}
+
+.all {
+    padding-bottom: 110px;
+}
+
+@media screen and (max-width:600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding-left: 30px;
+
+    }
+
+    .nav-icon {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .container-items {
+        width: 100%;
+        gap: 50px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .box-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        padding-top: 0;
+
+
+
+    }
+
+    .btn-primary {
+        width: 455px;
+        height: 52px;
+
+        margin-bottom: 7px;
+        flex-shrink: 0;
+
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    .Tours {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .gallary-1,
+    .gallary-2,
+    .gallary-3 {
+        width: 335px;
+        flex-direction: column;
+    }
+
+    .Maldives,
+    .Srilanka,
+    .North-America,
+    .bangladesh {
+        margin-bottom: 16px;
+    }
+
+    .Srilanka,
+    .Indonesia,
+    .Maldives,
+    .North-America,
+    .bangladesh,
+    .bandarban,
+    .Kashmir {
+        margin-left: -55px;
+        width: 335px;
+        height: 276px;
+        border-radius: 16px;
+        background-repeat: no-repeat;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .fother-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        max-width: 474px;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 p {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .newsletter-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news-right {
+        max-width: 474px;
+        height: 422px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-container {
+        width: 475px;
+        height: 100%;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-text, .ss, .all{
+        width: 100%;
+    }
+
+}
